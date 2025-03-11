@@ -7,10 +7,6 @@ dist/
 .env.local
 .env.*.local
 
-# Database
-*.db
-*.db-journal
-
 # Logs
 logs/
 *.log
@@ -27,6 +23,3 @@ yarn-error.log*
 # Build
 build/
 dist/
-
-# Prisma
-prisma/*.db 
